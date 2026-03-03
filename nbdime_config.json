@@ -1,0 +1,20 @@
+{
+	"GitDiff": {
+		"Ignore": {
+			"/metadata": true,
+			"/cells/*/outputs": true,
+			"/cells/*/attachments": true,
+			"/cells/*/metadata": true,
+			"/cells/*": ["execution_count", "id"]
+		}
+	},
+	"GitMerge": {
+		"Ignore": {
+			"/metadata": true,
+			"/cells/*/outputs": true,
+			"/cells/*/attachments": true,
+			"/cells/*/metadata": true,
+			"/cells/*": ["execution_count", "id"]
+		}
+	}
+}
