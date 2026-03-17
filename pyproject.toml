@@ -4,4 +4,19 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "bokeh>=3.8.2",
+    "ipykernel>=7.2.0",
+    "matplotlib>=3.10.8",
+    "nbdime>=4.0.4",
+    "pandas>=3.0.0",
+    "scikit-learn>=1.8.0",
+    "seaborn>=0.13.2",
+    "tensorflow[and-cuda]>=2.20.0",
+    "tqdm>=4.67.3",
+]
+
+[project.optional-dependencies]
+cpu = [
+    "tensorflow-cpu>=2.20.0",
+]
